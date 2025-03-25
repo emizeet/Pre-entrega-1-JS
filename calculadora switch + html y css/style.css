@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(46, 46, 172);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-self: center;
+    text-decoration: underline;
+    color: white;
+}
+
+input[type="number"] {
+    padding: 5px;
+    margin: 10px;
+    width: 15rem;
+}
+
+.calculadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40rem;
+    height: 40rem;
+    border: .25rem solid black;
+}
+
+.numeroAB {
+    font-size: 1.5rem;
+    color: white;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
