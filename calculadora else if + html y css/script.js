@@ -19,6 +19,5 @@ function realizarOperacion(operacion) {
         }
     }
 
-    // Mostrar el resultado en el div
     document.getElementById('resultado').textContent = "El resultado es: " + resultado;
 }
